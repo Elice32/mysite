@@ -1,0 +1,794 @@
+.show
+{
+    display:none;
+}
+.imgPhone
+{
+    display:none;
+}
+.mini
+{
+    display:none;
+}
+menuPh{
+    display:none;
+
+}
+.hidden
+{
+    display:none;
+
+}
+
+@media only screen and (max-width: 814px)
+{
+   .home
+   {
+    display:none;
+   }
+   .contacts
+   {
+    display:none;
+   }
+   .projects
+   {
+    display:none;
+   }
+ 
+      
+   #mini{
+    height: auto;
+    top: 0.5%;
+    position: fixed;
+    z-index: 100;
+    cursor: pointer; 
+    margin-top: -3%;
+}
+
+.show{
+
+    width: 40px;
+        height: auto;
+        top: -5px;
+        position: fixed;
+        z-index: 100;
+        right: 10%;
+        cursor: pointer; 
+    margin-top: 2%;
+    padding-left: 4%;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+menuPh {
+    display: inline-block;
+    padding: 0;
+    height: 30%;
+    width: 30%;
+background-color: #577e74;
+    top: 8%;
+    position: fixed;
+    z-index: 100;
+    right: 10%;
+}
+.hidden{
+    display: none;
+    padding-left: 8%;
+    margin-top: 1%;
+}
+input[type=checkbox] 
+{
+    position: absolute;
+    opacity: 0;
+    border: none;
+    outline: none;
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   display: none;
+   visibility: hidden;
+   opacity: 0;
+   left: -9999px;
+
+   top: 0%;;
+   margin-top: 0%;;
+}
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+    top: 0%;;
+   margin-top: 0%;;
+  }
+input[type=checkbox]:checked ~ .hidden 
+{
+   display: block;
+
+   position: absolute;
+   top: 0%;;
+   margin-top: 0%;;
+}
+.checkbox
+{
+    position: absolute;
+    top: 0%;
+    margin-top: 0%;; 
+}
+}
+.menu1
+{ 
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    height: 8%;
+    background-color: #f5f5f5;
+    z-index: 100;
+}
+
+.about
+{
+    top: 8%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    background-color: #F5CAC3;
+    margin: auto; 
+}
+
+.who
+{
+    top: 43%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background-color: #F7EDE2;
+    margin: auto; 
+}
+
+.skillbox
+{
+    top: 73%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    background-color: #F6BD60;
+    margin: auto; 
+}
+
+.projectsbox
+{
+    top: 123%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    background-color: #F28482;
+    margin: auto; 
+}
+
+.contactbox
+{
+    top: 97%;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 125%;
+    background-color:whitesmoke ;
+    margin: auto; 
+}
+
+.home
+{
+    margin-top: 0.9%;
+    position: absolute;
+    color: #84A59D;
+    margin-top: 0%;
+    margin-left: -65%;
+    font-family: "Jost", sans-serif;
+    font-size: 26;
+}
+.projects
+{
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 74%;
+    color: #84A59D;
+    font-family: "Jost", sans-serif;
+    font-size: 26;
+}
+
+.main_menu li
+{
+    display: inline-block;
+    padding: 0 20px;
+    height: 34px;
+	margin: 0 auto;
+}
+
+.main_menu li:hover
+{
+	text-decoration: none;
+    color: rgb(238, 209, 130);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main_menu li:hover .sub_menu 
+{
+    display: block;
+	text-decoration: none;
+    color: rgb(238, 209, 130);
+    text-decoration: none;
+    cursor: pointer;
+}
+.numbers
+{
+    font-size: 23;
+}
+.sub_menu
+{
+    display: none;
+    position: absolute;
+    background: rgb(132, 165, 157);
+	margin: 0;
+	padding: 8;
+    width: 127%;
+    height: 390%;
+    margin-left: -30;
+	text-decoration: none !important;
+}
+.sub_menu li
+{
+    display: block;
+    padding: 3px;
+	height: 25px;
+	width: 250px;
+	text-decoration: none !important;
+}
+
+.contacts
+{
+    margin-top: 0%;
+    position: absolute;
+    margin-left: 15%;
+    color: #84A59D;
+    font-family: "Jost", sans-serif;
+    font-size: 26;
+}
+a:hover 
+{   
+    color: rgb(238, 209, 130);
+    text-decoration: none;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+img
+{
+    position: absolute;
+}
+.dlina
+{
+    height: 2000px;
+}
+
+.hi
+{
+    margin-top: 6%;
+    position: relative;
+    text-align: center;
+    color: #7a9991;
+    font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 55;
+    line-height:2;
+}
+.hi1
+{
+    margin-top: -4%;
+    position: relative;
+    text-align: center;
+    color: #84A59D;
+    font-family: "Vollkorn SC", serif;
+    font-weight: 400;
+    font-size: 55;
+}
+
+.textwho
+{
+    margin-top: 3%;
+    position: relative;
+    text-align: center;
+    color: #84A59D;
+    font-family: "Vollkorn SC", serif;
+    font-weight: 400;
+    font-size: 30;
+}
+
+.skill
+{
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    color: #7a9991;
+    font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 40;
+}
+
+.me
+{
+    margin-left: 100;
+    display: block;
+    width: 40%;
+    top: 40px;
+    height: auto;
+    position: absolute;
+    border-radius: 50px;
+}
+.mem
+{
+    margin-left: 0%;
+    display: block;
+    width: 320px;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.projectstext
+{
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    color: #577e74;
+    font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 40;
+}
+
+.contacttext
+{
+    margin-top: 3%;
+    position: relative;
+    text-align: center;
+    color: #84A59D;
+    font-family: "Vollkorn SC", serif;
+    font-weight: 600;
+    font-size: 40;
+}
+
+#progressbar1
+{
+    z-index: 100;
+    
+    width: 300px;
+    height: 40px;
+    
+    margin-top: 40px;
+    margin-left: 45%;
+}
+.skillprogress1
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+#progressbar2
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    /*margin-top: 50px;*/
+    margin-left: 45%;
+}
+.skillprogress2
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+#progressbar3
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    margin-left: 45%;
+}
+.skillprogress3
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+#progressbar4
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    margin-left: 45%;
+}
+.skillprogress4
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 160px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+#progressbar5
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    margin-left: 45%;
+}
+.skillprogress5
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 200px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+#progressbar6
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    margin-left: 45%;
+}
+.skillprogress6
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 240px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+#progressbar7
+{
+    z-index: 100;
+    width: 300px;
+    height: 40px;
+    margin-left: 45%;
+}
+.skillprogress7
+{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 75px;
+    height: 30px;
+    margin-top: 280px;
+    margin-left: 781;
+    background-color: #eeeeee;
+
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 16;
+    font-weight: 500; 
+}
+
+.skilltext
+{
+    margin-top: 1%;
+    position: relative;
+    text-align: center;
+    color: #84A59D;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 27;
+}
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 2;
+  }
+
+  .help
+  {
+      left: 0;
+      top: 180%;
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+      height: 10%;
+      margin: auto; 
+      background-color: #5f6866;
+  }
+  
+  .made
+  {
+      color: #F7EDE2;
+      font-family: "Jost", sans-serif;
+      font-size: 21px;
+      text-align: right;
+      margin-right: 9%;
+      margin-top: 2.5%;
+  }
+  
+  .telega
+  {
+      position: absolute;
+      width: 3.8%;
+      height: auto;
+      top: 15;
+      left: 20%;
+  }
+  .whatsapp
+  {
+      position: absolute;
+      width: 7%;
+      height: auto;
+      top: 15;
+      left: 25%;
+  }
+  .vk
+  {
+      position: absolute;
+      width: 3.9%;
+      height: auto;
+      top: 15;
+      left: 33%;
+  }
+  .github
+  {
+      position: absolute;
+      width: 4.3%;
+      height: auto;
+      top: 11;
+      left: 39%;  
+  }
+
+  label 
+  {
+  background: #444;
+  color: #fff;
+  transition: transform 400ms ease-out;
+  display: inline-block;
+  min-height: 50%;
+  width: 100%;
+  height: 70%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  line-height: 10%;
+  }
+
+form 
+{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  bottom: 0;
+  right: 0;
+  
+  width: 50%;
+  height: 90%;
+  overflow: hidden;
+
+  white-space: nowrap;
+}
+input {
+  position: absolute;
+}
+input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4){
+ z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+  transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+  transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+  transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+  transform: translate3d(-300%, 0, 0);
+}
+
+label 
+{
+  background-size: cover;
+  font-size: 3rem;
+}
+
+label[for="1slide"]
+{
+  background-image: url("screentest.png");
+}
+
+label[for="2slide"] 
+{
+  background-image: url("screenfood.png");
+}
+
+label[for="3slide"]
+{
+  background-image: url("screenfood2.png");
+}
+
+label[for="4slide"]
+{
+  background-image: url("screenslide.png");
+}
+
+label:before,
+label:after 
+{
+  color: rgb(0, 0, 0);
+  display: block;
+  background: rgba(255,255,255,0.2);
+  position: absolute;
+  padding: 1rem;
+  font-size: 3rem;
+  height: 10rem;
+  vertical-align: middle;
+  line-height: 10rem;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  cursor: pointer;
+}
+
+label:before 
+{
+  content: "\276D";
+  right: 100%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+label:after 
+{
+  content: "\276C";
+  left: 100%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.imghi
+{
+    display: block;
+    left: 45%;
+    top: 14.5%;
+
+    width: 32%;
+    height: auto;
+
+    position: absolute;
+    border-radius: 40px;
+}
+
+.saparicat
+{
+    display: block;
+    left: 75%;
+    top: 13%;
+
+    width: 20%;
+    height: auto;
+
+    position: absolute;
+    border-radius: 40px;
+}
+
+
+.button
+{
+right: 2%;
+bottom: 2%;
+
+width: 60px;
+height: 60;
+
+background: whitesmoke;
+border-radius: 500px;
+
+z-index: 100;
+display: flex;
+position: fixed;
+display: inline-block;
+cursor: pointer;
+}
+
+.up
+{
+    right: 2%;
+bottom: 2%;
+
+width: 60px;
+height: 60;
+
+background: whitesmoke;
+border-radius: 500px;
+
+z-index: 100;
+display: flex;
+position: fixed;
+display: inline-block;
+cursor: pointer;
+}
